@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #191919;
+}
+#intro{
+  color:#602bdf;
+  font-size:35px;
+}
+.primary-btn {
+  background-color: #602bdf;
+  color: white;
+  border: #612bdf81;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+.primary-btn:hover {
+  background-color: #5219d6;
+  color: white;
+}
+.primary-btn:active {
+  background-color: #5219d6;
+  color: white;
+}
+.primary-btn:focus {
+  background-color: #5219d6;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.52);
+}
+.contact {
+  width: 40%;
+  margin-top: 35px;
+}
+.contact-icons {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #602bdf;
+  transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+.contact-icons:hover {
+  background-color: #5216df;
+}
+
+.contact-form {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 750px;
+  height: auto;
+  border-radius: 15px;
+  background-color: white;
+}
+.input-group-text {
+  background-color: white;
+  border: none;
+}
+.form-control {
+  border: none;
+}
+.input-group {
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 5px;
+}
+.input-group:focus-visible {
+  outline: none !important;
+}
+
+@media (max-width: 1240px) {
+  .contact {
+    width: 80%;
+  }
+}
+@media (max-width: 765px) {
+  .contact-icons h6 {
+    font-size: 13px;
+  }
+  .contact-form {
+    width: 90%;
+  }
+}
+
+#loader{
+    position: absolute;
+    z-index: 10;
+    height:100vh;
+    width:100vw;
+    background: #181818;
+}
